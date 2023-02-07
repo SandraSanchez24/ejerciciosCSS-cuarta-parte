@@ -1,0 +1,26 @@
+div{
+    position: relative;
+    top: 550px;
+    left: 1000px;
+    border: grey solid 1px;
+    border-radius: 45px;
+    display: flex;
+    height: 30px;
+    width: 300px;
+    padding: 25px;
+    align-items: center;
+    box-shadow: 10px 10px 20px -3px rgb(199, 196, 196);
+
+}
+i{
+    font-size: 20px;
+}
+
+.descripcion{
+    display: inline;
+    font-size: 25px;
+    margin: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-left: 15px;
+}

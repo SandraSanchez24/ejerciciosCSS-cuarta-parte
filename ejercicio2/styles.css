@@ -1,0 +1,101 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja-principal{
+    height: 400px;
+    width: 400px;
+    border: grey solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.caja1, .caja2, .caja3, .caja4, .caja5, .caja6, .caja7, .caja8, .caja9 {
+    background-color: grey;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: flex;
+    position: relative;
+    z-index: -3;
+}
+.caja-roja{
+    position: relative;
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    z-index: 2;
+}
+.caja-verde{
+    position: relative;
+    background-color: green;
+    height: 30px;
+    width: 30px;
+    z-index: 3;
+}
+.caja1 .caja-verde{
+    top: 70px;
+    left: 10px;
+}
+.caja2 .caja-roja{
+    top: 40px;
+}
+.caja2 .caja-verde{
+    left: 10px;
+
+}
+.caja3 .caja-roja{
+    top: 40px;
+    left: 40px;
+}
+.caja3 .caja-verde{
+    left: 10px;
+}
+.caja4 .caja-roja{
+    top: 40px;
+}
+.caja4 .caja-verde{
+    right: 30px;
+    top: 70px;
+}
+.caja5 .caja-roja{
+    left: 40px;
+}
+.caja5 .caja-verde{
+    right: 20px;
+    top: 30px;
+}
+.caja6 .caja-roja{
+    top: 40px;
+    left: 40px;
+}
+.caja6 .caja-verde{
+    left: 10px;
+    top: 40px;
+}
+.caja7 .caja-roja{
+    left: 20px;
+}
+.caja7 .caja-verde{
+    top: 70px;
+    right: 60px;
+}
+.caja8 .caja-roja{
+    top: 40px;
+    left: 20px;
+
+}
+.caja8 .caja-verde{
+    top: 70px;
+    right: 25px;
+}
+.caja9 .caja-roja{
+    top: 20px;
+    left: 20px;
+}
+.caja9 .caja-verde{
+    top: 35px;
+    right: 25px;
+}

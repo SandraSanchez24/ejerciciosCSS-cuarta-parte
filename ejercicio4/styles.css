@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja-principal{
+    height: 500px;
+    width: 400px;
+    border: grey solid 1px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja-sec{
+    height: 90%;
+    width: 90%;
+    border: grey solid 1px;
+}
+.header-envio{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.envio{
+    background-color: blue;
+    display: inline;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+    margin: 0px;
+}
+.descuento{
+    background-color: green;
+    color: white;
+    display: inline;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+img{
+    position: relative;
+    bottom: 100px;
+    z-index: -5;
+}
+.adidas{
+    font-size: 30px;
+    color: rgb(70, 68, 68);
+    position: relative;
+    bottom: 160px;
+    display: inline;
+    margin-left: 15px;
+}
+.precio{
+    font-size: 30px;
+    color: aqua;
+    display: inline;
+    position: relative;
+    bottom: 160px;
+    left: 60px;
+}
+.descripcion{
+    font-size: 20px;
+    color: rgb(168, 164, 164);
+    position: relative;
+    bottom: 170px;
+    margin-left: 15px;
+}
